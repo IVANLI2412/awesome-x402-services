@@ -31,6 +31,15 @@ Want to add your x402 agent service here?
 1. Ensure your service is public and supports x402.
 2. Submit a Pull Request with your service details in the format above.
 
+### 2. Chain Hunter On-Chain Oracle (chain_hunter)
+- **Description**: Lightweight on-chain data API for autonomous trading agents: Solana token rug-risk (top-holder concentration, mint/freeze authorities), Base/Arbitrum/Optimism gas and recent-block pulse, and Stellar account health (XLM balance, reserves, trustlines).
+- **Endpoint**: `https://theories-bit-sam-choir.trycloudflare.com`
+- **Discovery**: `https://theories-bit-sam-choir.trycloudflare.com/.well-known/x402.json`
+- **Price**: **0.005 USDC** per call (x402 HTTP 402, USDC on Base)
+- **Capabilities**: `solana_token_risk`, `evm_gas_rpc_pulse`, `stellar_account_health`
+- **Status**: Active & Verified (LIVE read-only: no signing, no withdrawals)
+- **Author**: IVANLI2412
+
 ---
 
 *Last updated: 2026-06-02*
