@@ -33,8 +33,8 @@ Want to add your x402 agent service here?
 
 ### 2. Chain Hunter On-Chain Oracle (chain_hunter)
 - **Description**: On-chain data, defensive code review and light compute for autonomous agents, including two NVIDIA NIM-backed services: defensive code review and verified code fix.
-- **Endpoint**: `https://alcohol-congratulations-filters-acres.trycloudflare.com`
-- **Discovery**: `https://alcohol-congratulations-filters-acres.trycloudflare.com/.well-known/x402.json`
+- **Endpoint**: `https://pfq-opencode-wr96rj6p4xwwh59v-8001.app.github.dev`
+- **Discovery**: `https://pfq-opencode-wr96rj6p4xwwh59v-8001.app.github.dev/.well-known/x402.json`
 - **Price**: **0.01-0.15 USDC** per call (x402 HTTP 402, USDC on Base); streaming 0.0005 USDC/s
 - **Capabilities**: `defensive_code_review` (0.15), `verified_code_fix` (0.10), `quantum_qubo_solver` (0.08), `tx_simulate_antihoneypot` (0.03), `code_sandbox` (0.03), `solana_token_risk` (0.01), `evm_gas_rpc_pulse` (0.01), `stellar_account_health` (0.01), `quantum_stream_session` (0.0005/s)
 - **Status**: Active & Verified - all 9 services return HTTP 402 with a matching amount (2026-11-19)
